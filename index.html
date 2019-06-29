@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Map</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        </head>
+    <body>
+
+        <div class="container">
+            <div class="sidebar">
+                <img src="./assets/logo.png" alt="Logo of Pathfinder">
+                <button onclick="StartJourney()" id="launch-drone" class="btn">
+                    Begin Scouting
+                </button>
+                
+                <div class="obstacles-detected">
+                    <h1 hidden>
+                            Obstacles Detected
+                    </h1>
+                    <div class="obstacle d1">
+                        <p><b>Lat:</b> 25.093295</p>
+                        <p><b>Lng:</b> 55.313609</p>
+                        <p><b>Type:</b> Flood</p>
+                    </div>
+    
+                    <div class="obstacle d2">
+                        <p><b>Lat:</b> 25.093295</p>
+                        <p><b>Lng:</b> 55.313609</p>
+                        <p><b>Type:</b> Fire</p>
+                    </div>
+    
+                    <div class="obstacle d3">
+                        <p><b>Lat:</b> 25.093295</p>
+                        <p><b>Lng:</b> 55.313609</p>
+                        <p><b>Type:</b> Rocks</p>
+                        </p>
+                    </div>
+    
+                    <div class="obstacle d4">
+                        <p><b>Lat:</b> 25.093295</p>
+                        <p><b>Lng:</b> 55.313609</p>
+                        <p><b>Type:</b> Tree</p>
+                    </div>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+        
+    </body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap" defer></script>
+    <script type="text/javascript" src="animate.js" defer></script>
+    <script src="index.js"></script>
+</html>
