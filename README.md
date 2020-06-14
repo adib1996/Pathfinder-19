@@ -23,7 +23,7 @@ Used to develop classifiers to identify debry and obstacles in the road
 ## Installation 
 1. Clone the Repo into the directory you wish, by using the following Command
 ``` bash
-$ git clone https://github.com/mabouamer/Pathfinder-19 
+$ git clone https://github.com/adib1996/Pathfinder-19 
 ```
 
 2. Replace "YOUR-API-KEY" with your Maps API Key under the index.html file
